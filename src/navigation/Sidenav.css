@@ -1,0 +1,48 @@
+
+@media(min:680px){
+    
+
+.sidenav{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    z-index: 1;
+    border-right: 1px solid rgba(255,255,255,0.281);
+}
+}
+.sidenav__logo{
+    width:120px; 
+    margin-bottom: 1rem;
+}
+
+.sidenav-button-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: 0;
+    color:white;
+    margin:5px 10px 5px 10px;
+    padding:10px 15px 20px 5px;
+    border-radius: 0.5rem;
+    transition: all 0.3s;
+}
+
+.button:hover{
+    cursor: pointer;
+    background-color: rgba(255,255,255,0.128);
+}
+
+.menu{
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+}
+span{
+    margin-left:8px;
+}

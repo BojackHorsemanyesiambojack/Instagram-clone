@@ -1,0 +1,36 @@
+.suggestions{
+    margin-top: 2.5rem;
+}
+
+.sugestion-user{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.username-left{
+    display: flex;
+    flex-direction: row;
+}
+
+.username-info{
+    display: flex;
+    flex-direction: column;
+}
+
+.follow{
+    background: 0;
+    border: none;
+    color:#0095f6;
+    font-weight: bold;
+}
+.relation{
+    font-size: smaller;
+    color:rgba(255,255,255,0.281)
+}
+
+.follow:hover{
+    color:white;
+    cursor: pointer;
+
+}
