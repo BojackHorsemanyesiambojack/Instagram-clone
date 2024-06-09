@@ -3,7 +3,6 @@
     
 
 .sidenav{
-    position: fixed;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -11,14 +10,18 @@
     border-right: 1px solid rgba(255,255,255,0.281);
 }
 }
+
 .sidenav__logo{
     width:120px; 
+    padding:1rem ;
     margin-bottom: 1rem;
 }
 
 .sidenav-button-container{
     display: flex;
     flex-direction: column;
+    text-align: center;
+    
 }
 
 .button{
@@ -39,10 +42,34 @@
 }
 
 .menu{
-    margin-top: 70px;
+    margin-top: 20px;
     display: flex;
     align-items: center;
 }
 span{
     margin-left:8px;
+}
+
+@media (max-width:800px) {
+    .nav{
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .sidenav-button-container{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .sidenav__logo{
+        display: none;
+    }
+
+    .button{
+        margin:0;
+
+        span{
+            display: none;
+        }
+    }
 }

@@ -1,11 +1,16 @@
 .suggestions{
     margin-top: 2.5rem;
+    position: fixed;
+    width:25%
 }
 
 .sugestion-user{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    gap:10%;
+    flex-wrap:wrap;
+    align-items: center;
+    justify-content: center;
 }
 
 .username-left{

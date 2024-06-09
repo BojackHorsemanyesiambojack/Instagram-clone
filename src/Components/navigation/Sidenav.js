@@ -57,7 +57,7 @@ function Sidenav() {
         </div>
       </div>
       <div className='sidenav-button'>
-        <div className='button'>
+        <div className='button' onClick={openCreatorForm}>
             <AddCircleIcon />
             <span>Create</span>
         </div>
@@ -74,7 +74,8 @@ function Sidenav() {
 }
 
 function openCreatorForm(){
-    return(<CreatorForm />)
+    const creatorForm = document.getElementById('creat-form')
+    creatorForm.style.display = 'flex';
 }
 
 export default Sidenav

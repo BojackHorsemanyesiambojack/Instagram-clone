@@ -2,7 +2,11 @@
     display: flex;
     flex-direction: column;
     margin:30px 40px 50px;
-    span{color:rgba(255,255,255,0.281)}
+    span{}
+}
+
+.date{
+    color:rgba(255,255,255,0.281)
 }
 
 .post-header{
@@ -46,3 +50,8 @@
 .icon:hover{
     cursor: pointer;
 }
+
+.like:hover{
+    color:rgb(240, 116, 107)
+}
+
