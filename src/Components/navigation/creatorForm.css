@@ -1,15 +1,14 @@
 .makingPost{
-    position: fixed;
-    width: 35%;
+    width: 50%;
     background-color: rgb(32, 32, 32);
     display: flex;
     flex-direction: column;
     padding:0 5rem 5rem 5rem;
-    margin-left: 21%;
-    margin-top: 5%;
     border-radius: 0.5rem;
     z-index: 10;
     align-items: center;
+    justify-self: center;
+    text-align: center;
     
     textarea{
         background-color: rgb(20,20,20);
@@ -26,13 +25,12 @@
 
 .text{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     border-bottom: 1px solid rgb(243, 243, 243);
     width: 100%;
     padding:0.5rem 5rem 0.5rem 5rem;
 
     span{
-        margin-left:30%;
         font-weight: 500;
     }
 }
@@ -56,6 +54,7 @@
     align-items: center;
     display: flex;
     flex-direction: column;
+    text-align: center;
 }
 
 .send-file-button:hover{
